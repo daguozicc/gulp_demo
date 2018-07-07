@@ -1,0 +1,22 @@
+/*reset 重新定义浏览器默认样式*/
+body{
+	padding: 0 0;
+	margin:0 0;
+}
+ a{
+ 	text-decoration: none;
+ }
+ ul,li{
+ 	list-style: none;
+ }
+ input{
+ 	border: none;
+ }
+ img{
+ 	border:0;
+ 	vertical-align: middle;
+ }
+ a:focus{
+ 	outline: none;
+ } 
+ 
