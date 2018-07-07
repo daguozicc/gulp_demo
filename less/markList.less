@@ -1,0 +1,300 @@
+//./node_modules/http-server/bin/http-server ./     启动命令
+
+@b-color: #101820;
+//这个是背景颜色
+@w-color: #D8E1EB;
+//灰白色的字体
+@fontYellowColor: #FCC118;
+//黄色的字体
+@cw-c: #FFFFFF;
+//纯白色字体
+@tab-color: #415F7D;
+//tab 的字体颜色
+@header-padding-size: 17px;
+@content-padding-size: 15px;
+@b-active-color: #15202B;
+@b-color: #101820;
+@green-botton: #0BA83F;  //绿色的按钮
+@red-botton: #DF1A28;  //红色的按钮
+ html {
+  font-size: 12px;
+  background-color: black;
+   min-width: 320px;
+}
+
+body {
+  background-color: black;
+}
+//绿色的button
+.g-b-c{
+  background-color: @green-botton;
+}
+//绿色的字
+.a-b-c{
+  color:@green-botton
+}
+//红色的字
+.a-r-c{
+  color:@red-botton
+}
+
+//红色的button
+.r-b-c{
+  background-color: @red-botton
+}
+
+.y-c {
+  color: @fontYellowColor; //黄色的字体
+}
+//tab 的字体颜色
+.t-c {
+  color: @tab-color;
+}
+//这个是灰白色的字体颜色
+.w-c {
+  color: @w-color;
+}
+//纯白的的字体颜色
+.cw-c {
+  color: @cw-c;
+}
+//tab一行像选中的颜色
+.b-a-c {
+  background-color: @b-active-color;
+}
+//tab栏的背景颜色
+.b-c {
+  background-color: @b-color;
+}
+.current-button{
+  height: 44px;
+  border-radius: 5px 0 0 5px;
+  color:#101820;
+  background-color: #FCC118;
+}
+.header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 @header-padding-size;
+  overflow: hidden;
+  background-color: #101820;
+  .header-left {
+    float: left;
+    width: 80%;
+    .header-left-icon {
+      float: left;
+      padding-left: 0px;
+      img {
+        height: 12px;
+      }
+    }
+    .font-list {
+      float: left;
+      margin-left: 10px;
+      font-size: 12px;
+      line-height: 55px;
+    }
+  }
+  .header-right {
+    width: 20%;
+    float: right;
+    .header-right-icon {
+      float: right;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}
+
+.tab-content-title {
+  width: 100%;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  .content-left {
+    height: 40px;
+    float: left;
+    width: 45%;
+    > span {
+      padding: 3px;
+    }
+  }
+  .content-center {
+    height: 40px;
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 20px;
+    > span {
+      padding: 3px;
+    }
+  }
+  .content-right {
+    height: 40px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    > span {
+      padding: 3px;
+    }
+  }
+}
+
+.tab-content-list {
+  height: 50px;
+  padding: 0 @content-padding-size;
+  border-bottom: 1px solid #15202B;
+  .content-left {
+    width: 18px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 12px;
+
+  }
+  .tab-content-overflow {
+    overflow: hidden;
+    .ov-left {
+      float: left;
+      width: 45%;
+      padding-left: 3px;
+      box-sizing: border-box;
+      div:last-child {
+        margin-top: -3px;
+        > span {
+          font-size: 12px;
+        }
+      }
+      .ov-left-font {
+        margin-top: 6px;
+        span:first-child {
+          font-size: 15px;
+        }
+        span:last-child {
+          font-size: 12px;
+          margin-top: -5px;
+        }
+      }
+    }
+    .ov-center {
+      display: inline-block;
+      box-sizing: border-box;
+      text-align: right;
+      width: 30%;
+      padding-right: 30px;
+      div:last-child {
+        margin-top: -3px;
+        > span {
+          font-size: 12px;
+        }
+      }
+      .ov-left-font {
+        margin-top: 6px;
+        div:first-child {
+          font-size: 15px;
+        }
+        div:last-child {
+          margin-top: -3px;
+          font-size: 15px;
+        }
+      }
+    }
+    .ov-right {
+      float: right;
+      width: 25%;
+      text-align: center;
+      > div {
+        height: 30px;
+        width: 80%;
+        //background-color: green;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: right;
+        border-radius: 3px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.nav {
+  height: 40px;
+  li {
+    a {
+      &:hover {
+        background-color: #15202B;
+      }
+    }
+  }
+}
+
+.exchange-box-container {
+  width: 100%;
+  height: 200px;
+  .exchange-box-one{
+    height: 158px;
+    margin: 0 auto;
+    width: 184px;
+    .start-large{
+      margin-left: -35px;
+      margin-top: 25px;
+      display: block;
+      float: left;
+      font-size: 78px;
+      color: #FCC118;
+    }
+    .start-small{
+      float: left;
+      margin-top: 69px;
+      margin-left: -50px;
+      font-size: 10px;
+      color: #FCC118;
+    }
+    .null-center-box{
+      float: left;
+      width: 184px;
+      height: 49.7px;
+      margin: 0 auto;
+      margin-top: -85px;
+      background:linear-gradient(to right, #17252D , #0F2126);
+        span{
+          font-family: AppleSystemUIFont;
+          font-size: 12px;
+          color: #415F7D;
+        }
+        .first-number{
+          overflow: hidden;
+          padding-top: 8px;
+          span:first-child{
+            float: left;
+            font-family: AppleSystemUIFont;
+            font-size: 15px;
+            color: #FFFFFF;
+          }
+          span:nth-child(2){
+            float: left;
+            margin-top: 2px;
+          }
+          span:nth-child(3){
+            float: right;
+          }
+        }
+        .two-number{
+          margin-top: -5px;
+        }
+      }
+  }
+    .exchange-box-two{
+      width: 96px;
+      height: 17px;
+      font-family: PingFangSC-Regular;
+      font-size: 12px;
+      color: #415F7D;
+      margin: 0 auto;
+    }
+}

@@ -1,0 +1,394 @@
+/*
+* @Author: yzc
+* @Date:  $
+* @Last Modified by:   大果子Cc
+* @Last Modified time: 
+*/
+.menu-addbody {
+  overflow-y: hidden;
+}
+.menu-addheader {
+  position: relative;
+  z-index: 1400;
+}
+#aside-section .menu-cu-hand {
+  font-size: 14px;
+  border-radius: 0;
+  right: 0px;
+  top: 0px;
+  position: fixed;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform 300ms;
+  transition: transform 300ms ;
+  width: 200px;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1210;
+}
+#aside-section .menu-cu-hand > ul {
+  margin-top: 50px;
+  background-color: #101820;
+}
+.menu-cu-modal-active {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.menu-currencybg {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 50px;
+  width: 100%;
+  z-index: 1200;
+  display: none;
+}
+.menu-currencybg-active {
+  opacity: 1;
+  display: block;
+}
+#aside-section a {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 40px;
+  padding-left: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#aside-section a b {
+  display: block;
+  margin-top: 39px;
+  width: 185px;
+  border-bottom: 1px solid #17262D;
+}
+#aside-section .li-first {
+  height: 50px;
+}
+#aside-section ul,
+#aside-section li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#aside-section .active {
+  color: #FCC118!important;
+}
+#aside-section li {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D8E1EB;
+}
+#aside-section .user-phone {
+  display: block;
+  width: 200px;
+  height: 40px;
+  text-align: left;
+  padding: 12px 112px 11px 15px;
+  background: #15202B;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+#aside-section .cion-style {
+  display: block;
+  width: 12px;
+  height: 11px;
+  float: left;
+  margin: 14px 10px 15px 0;
+}
+#aside-section .marklist-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/marklist-icon-active@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .marklist-icon-highmark {
+    background: url("../images/marklist-icon-active@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .exchangecenter-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/exchangecenter-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .exchangecenter-icon-highmark {
+    background: url("../images/exchangecenter-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .exchangerecord-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/exchangerecord-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .exchangerecord-icon-highmark {
+    background: url("../images/exchangerecord-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .assetsmanagesment-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/assetsmanagesment-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .assetsmanagesment-icon-highmark {
+    background: url("../images/assetsmanagesment-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .usercenter-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/usercenter-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .usercenter-icon-highmark {
+    background: url("../images/usercenter-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .superaward-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/superaward-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .superaward-icon-highmark {
+    background: url("../images/superaward-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .language-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/language-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .language-icon-highmark {
+    background: url("../images/language-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .annoucement-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/annoucement-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .annoucement-icon-highmark {
+    background: url("../images/annoucement-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .exituser-icon-highmark {
+  width: 12px;
+  height: 11px;
+  background-size: 12px 11px;
+  background: url("../images/exituser-icon-normal@1x.png") no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  #aside-section .exituser-icon-highmark {
+    background: url("../images/exituser-icon-normal@2x.png");
+    background-size: 12px 11px;
+  }
+}
+#aside-section .center {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D8E1EB;
+  margin-top: 12px;
+  display: block;
+  height: 17px;
+  float: left;
+}
+#aside-section .center-small {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D8E1EB;
+  margin-top: 12px;
+  display: block;
+  height: 17px;
+  float: left;
+}
+#aside-section .center-small-two {
+  display: block;
+  height: 17px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+#aside-section .china-menu-box {
+  height: 18px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 11px;
+}
+#aside-section .padding-left {
+  float: left;
+  display: block;
+  width: 21px;
+  height: 40px;
+}
+#aside-section .english-menu-box {
+  height: 18px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 11px;
+}
+#aside-section .korea-menu-box {
+  height: 16px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 13px;
+}
+#aside-section .show-hide-menu-box {
+  display: none;
+}
+#aside-section .show-hide-menu-box-money {
+  display: none;
+}
+#aside-section .show-hide-menu-box-language {
+  display: none;
+}
+#aside-section .circle-style {
+  display: block;
+  width: 8px;
+  height: 4px;
+  float: right;
+  margin-top: 16px;
+  margin-right: 16px;
+  color: #EEF2F7;
+}
+#aside-section .circle-style-money {
+  display: block;
+  width: 8px;
+  height: 4px;
+  float: right;
+  margin-top: 16px;
+  margin-right: 16px;
+  color: #EEF2F7;
+}
+#aside-section .circle-style-language {
+  display: block;
+  width: 8px;
+  height: 4px;
+  float: right;
+  margin-top: 16px;
+  margin-right: 16px;
+  color: #EEF2F7;
+}
+#aside-section .single-branch {
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #415F7D;
+  text-align: left;
+  display: block;
+  height: 18px;
+  margin-left: 30px;
+  margin-top: 11px;
+}
+#aside-section .two-single-branch {
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #415F7D;
+  text-align: left;
+  display: block;
+  height: 18px;
+  margin-left: 30px;
+  margin-top: 11px;
+}
+#aside-section .two-single-branch-x {
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #415F7D;
+  text-align: left;
+  display: block;
+  height: 18px;
+  margin-left: 30px;
+  margin-top: 11px;
+}
+#aside-section .null-box-contianer {
+  height: 10px;
+  background-color: #17262D;
+  margin-top: -1px;
+}
+#aside-section .last-box-contianer {
+  height: 25px;
+  background-color: #17262D;
+}
+#aside-section .china-icon {
+  background: url(../images/sprite.png) no-repeat -184px 0;
+  width: 20px;
+  height: 15px;
+  display: block;
+  margin-top: 14px;
+  margin-left: 10px;
+  float: left;
+}
+#aside-section .english-icon {
+  background: url(../images/sprite.png) no-repeat -155px 0;
+  width: 20px;
+  height: 15px;
+  display: block;
+  margin-top: 14px;
+  margin-left: 10px;
+  float: left;
+}
+#aside-section .korea-icon {
+  background: url(../images/sprite.png) no-repeat -184px -16px;
+  width: 20px;
+  height: 15px;
+  display: block;
+  margin-top: 14px;
+  margin-left: 10px;
+  float: left;
+}
+#aside-section .chosen-color {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #FCC118;
+}
+#aside-section .noChosen-color {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #415F7D;
+}
+#aside-section .chosen-menu-color {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D8E1EB;
+}
+.announcement-number {
+  background-image: linear-gradient(-180deg, #FEE235 0%, #FCC118 100%);
+  border-radius: 15px;
+  display: block;
+  min-width: 15px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 13px;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #101820;
+  letter-spacing: 0;
+  text-align: center;
+}

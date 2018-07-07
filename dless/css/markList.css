@@ -1,0 +1,260 @@
+html {
+  font-size: 12px;
+  background-color: black;
+  min-width: 320px;
+}
+body {
+  background-color: black;
+}
+.g-b-c {
+  background-color: #0BA83F;
+}
+.a-b-c {
+  color: #0BA83F;
+}
+.a-r-c {
+  color: #DF1A28;
+}
+.r-b-c {
+  background-color: #DF1A28;
+}
+.y-c {
+  color: #FCC118;
+}
+.t-c {
+  color: #415F7D;
+}
+.w-c {
+  color: #D8E1EB;
+}
+.cw-c {
+  color: #FFFFFF;
+}
+.b-a-c {
+  background-color: #15202B;
+}
+.b-c {
+  background-color: #101820;
+}
+.current-button {
+  height: 44px;
+  border-radius: 5px 0 0 5px;
+  color: #101820;
+  background-color: #FCC118;
+}
+.header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 17px;
+  overflow: hidden;
+  background-color: #101820;
+}
+.header .header-left {
+  float: left;
+  width: 80%;
+}
+.header .header-left .header-left-icon {
+  float: left;
+  padding-left: 0px;
+}
+.header .header-left .header-left-icon img {
+  height: 12px;
+}
+.header .header-left .font-list {
+  float: left;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 55px;
+}
+.header .header-right {
+  width: 20%;
+  float: right;
+}
+.header .header-right .header-right-icon {
+  float: right;
+  font-weight: 700;
+  font-size: 18px;
+}
+.tab-content-title {
+  width: 100%;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+}
+.tab-content-title .content-left {
+  height: 40px;
+  float: left;
+  width: 45%;
+}
+.tab-content-title .content-left > span {
+  padding: 3px;
+}
+.tab-content-title .content-center {
+  height: 40px;
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+.tab-content-title .content-center > span {
+  padding: 3px;
+}
+.tab-content-title .content-right {
+  height: 40px;
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+.tab-content-title .content-right > span {
+  padding: 3px;
+}
+.tab-content-list {
+  height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid #15202B;
+}
+.tab-content-list .content-left {
+  width: 18px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  font-size: 12px;
+}
+.tab-content-list .tab-content-overflow {
+  overflow: hidden;
+}
+.tab-content-list .tab-content-overflow .ov-left {
+  float: left;
+  width: 45%;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+.tab-content-list .tab-content-overflow .ov-left div:last-child {
+  margin-top: -3px;
+}
+.tab-content-list .tab-content-overflow .ov-left div:last-child > span {
+  font-size: 12px;
+}
+.tab-content-list .tab-content-overflow .ov-left .ov-left-font {
+  margin-top: 6px;
+}
+.tab-content-list .tab-content-overflow .ov-left .ov-left-font span:first-child {
+  font-size: 15px;
+}
+.tab-content-list .tab-content-overflow .ov-left .ov-left-font span:last-child {
+  font-size: 12px;
+  margin-top: -5px;
+}
+.tab-content-list .tab-content-overflow .ov-center {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  width: 30%;
+  padding-right: 30px;
+}
+.tab-content-list .tab-content-overflow .ov-center div:last-child {
+  margin-top: -3px;
+}
+.tab-content-list .tab-content-overflow .ov-center div:last-child > span {
+  font-size: 12px;
+}
+.tab-content-list .tab-content-overflow .ov-center .ov-left-font {
+  margin-top: 6px;
+}
+.tab-content-list .tab-content-overflow .ov-center .ov-left-font div:first-child {
+  font-size: 15px;
+}
+.tab-content-list .tab-content-overflow .ov-center .ov-left-font div:last-child {
+  margin-top: -3px;
+  font-size: 15px;
+}
+.tab-content-list .tab-content-overflow .ov-right {
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+.tab-content-list .tab-content-overflow .ov-right > div {
+  height: 30px;
+  width: 80%;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  border-radius: 3px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.nav {
+  height: 40px;
+}
+.nav li a:hover {
+  background-color: #15202B;
+}
+.exchange-box-container {
+  width: 100%;
+  height: 200px;
+}
+.exchange-box-container .exchange-box-one {
+  height: 158px;
+  margin: 0 auto;
+  width: 184px;
+}
+.exchange-box-container .exchange-box-one .start-large {
+  margin-left: -35px;
+  margin-top: 25px;
+  display: block;
+  float: left;
+  font-size: 78px;
+  color: #FCC118;
+}
+.exchange-box-container .exchange-box-one .start-small {
+  float: left;
+  margin-top: 69px;
+  margin-left: -50px;
+  font-size: 10px;
+  color: #FCC118;
+}
+.exchange-box-container .exchange-box-one .null-center-box {
+  float: left;
+  width: 184px;
+  height: 49.7px;
+  margin: 0 auto;
+  margin-top: -85px;
+  background: linear-gradient(to right, #17252D, #0F2126);
+}
+.exchange-box-container .exchange-box-one .null-center-box span {
+  font-family: AppleSystemUIFont;
+  font-size: 12px;
+  color: #415F7D;
+}
+.exchange-box-container .exchange-box-one .null-center-box .first-number {
+  overflow: hidden;
+  padding-top: 8px;
+}
+.exchange-box-container .exchange-box-one .null-center-box .first-number span:first-child {
+  float: left;
+  font-family: AppleSystemUIFont;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.exchange-box-container .exchange-box-one .null-center-box .first-number span:nth-child(2) {
+  float: left;
+  margin-top: 2px;
+}
+.exchange-box-container .exchange-box-one .null-center-box .first-number span:nth-child(3) {
+  float: right;
+}
+.exchange-box-container .exchange-box-one .null-center-box .two-number {
+  margin-top: -5px;
+}
+.exchange-box-container .exchange-box-two {
+  width: 96px;
+  height: 17px;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #415F7D;
+  margin: 0 auto;
+}
